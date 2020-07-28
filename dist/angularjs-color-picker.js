@@ -1,10 +1,10 @@
 /*!
- * angularjs-color-picker v3.4.8
+ * angularjs-color-picker v3.5.0
  * https://github.com/ruhley/angular-color-picker/
  *
- * Copyright 2017 ruhley
+ * Copyright 2020 ruhley
  *
- * 2017-10-06 09:51:57
+ * 2020-07-28 17:05:51
  *
  */
 
@@ -581,7 +581,7 @@ var AngularColorPickerController = function () {
     }, {
         key: 'onBlur',
         value: function onBlur(event) {
-            if (this.internalNgModel !== this.onChangeValue) {
+            if (this.internalNgModel !== this.onChangeValue || this.internalNgModel !== this.ngModel) {
                 this.updateModel = true;
                 this.update();
             }

@@ -29,6 +29,7 @@ var _config = {
     specs: ["**/*.protractor.js"],
     directConnect: true,
 
+
     // options to be passed to jasmine
     jasmineNodeOpts: {
         showColors: true,
@@ -44,6 +45,7 @@ var _config = {
         browser.driver.manage().window().setSize( 1600, 800 );
         browser.driver.manage().window().setPosition( 50, 100 );
     },
+
 };
 
 module.exports.config = _config;

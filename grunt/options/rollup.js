@@ -45,8 +45,8 @@ module.exports = {
         sourcemap: false,
         banner: '/*!\n * ' + pjson.name + ' v' + pjson.version + '\n * https://github.com/ruhley/angular-color-picker/\n *\n * Copyright ' + today.format('YYYY') + ' ruhley\n *\n * ' + today.format('YYYY-MM-DD HH:mm:ss') + '\n *\n */\n',
         globals: {
-            tinycolor2: 'tinycolor',
-        },
+            tinycolor2: 'tinycolor'
+        }
     },
     writeFile: function(writer, writeOptions) {
         try {
